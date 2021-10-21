@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanalimadeveloper/Forkify.git"
+  },
+  "author": "Luana Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanalimadeveloper/Forkify/issues"
+  },
+  "homepage": "https://github.com/luanalimadeveloper/Forkify#readme",
+  "dependencies": {
+    "parcel": "^2.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0"
+  }
+}
