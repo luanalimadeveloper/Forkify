@@ -3,8 +3,6 @@ import icons from 'url:../../img/icons.svg'; // Parcel 1
 //import Fraction from 'fractional';
 var Fraction = require('fractional').Fraction;
 
-console.log(Fraction);
-
 class RecipeView {
   #parentElement = document.querySelector('.recipe');
   #data;

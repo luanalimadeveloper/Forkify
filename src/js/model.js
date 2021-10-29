@@ -37,6 +37,7 @@ export const loadRecipe = async function (id) {
 export const loadSearchResults = async function (query) {
   try {
     state.search.query = query;
+    console.log(query);
 
     const data = await getJSON(`${API_URL}?search=${query}`);
     console.log(data);
@@ -49,6 +50,7 @@ export const loadSearchResults = async function (query) {
         image: rec.image_url,
       };
     });
+    console.log(state.search.results);
   } catch (err) {
     console.error(`${err} 💥💥💥`);
     throw err;
